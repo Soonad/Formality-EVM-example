@@ -24,7 +24,7 @@ var evmNorm = fm.evm.decompile(evmResult.runState.memory._store);
 var optResult = fm.optimal.normal("main/main", defs);
 
 // Prints Ethereum gas cost
-console.log("evmNorm : " + fm.stringify(fm.evm.decompile(evmResult.runState.memory._store)));
+console.log("evmNorm : " + fm.stringify(evmNorm));
 console.log("evmCost : " + evmResult.gasUsed.toString() + " gas");
 console.log("");
 
