@@ -1,0 +1,10 @@
+T Nat
+| zero
+| succ(pred : Nat)
+
+double(n : Nat) : Nat
+  case n
+  | zero => zero
+  | succ => succ(succ(double(n.pred)))
+
+main double(succ(succ(succ(succ(zero)))))

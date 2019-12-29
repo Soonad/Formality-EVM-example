@@ -1,0 +1,23 @@
+{
+  "name": "formality-evm-example",
+  "version": "0.1.0",
+  "description": "Example compiling a Formality program to Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonad/formality-evm-example.git"
+  },
+  "author": "Victor Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonad/formality-evm-example/issues"
+  },
+  "homepage": "https://github.com/moonad/formality-evm-example#readme",
+  "dependencies": {
+    "ethereumjs-vm": "^4.1.2",
+    "formality-lang": "^0.1.238"
+  }
+}
